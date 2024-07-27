@@ -23,6 +23,8 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
+    position: fixed;
+    width: 100%;
 }
 
 nav a {
