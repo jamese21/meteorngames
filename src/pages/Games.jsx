@@ -9,8 +9,8 @@ function Games() {
         <div class="game-container">
           <div class="banner-img"></div>
           <img src={meteorn_banner} alt="game banner" class="profile-img"></img>
-          <h2 class="title">Meteorn Run</h2>
-          <button class="btn">Go to site</button>          
+          <h3 class="title">Meteorn Run</h3>
+          <button class="btn">Play</button>          
         </div>
         <div class="game-container">
           <h1 class="title">Coming Soon</h1>    

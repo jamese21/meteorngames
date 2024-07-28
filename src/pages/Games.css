@@ -9,7 +9,7 @@
     --mainColor: #000F08;
     --mainColorLight: #6A6B83;
     --secondaryColor: #86BBBD;
-    --btnColor: #4730cc;
+    --btnColor: #d9e626;
     --btnHoverColor: #1c115e;
     --textColor: #eee;
     --clr-gray:#37474f;
@@ -33,6 +33,8 @@ body {
     justify-content: center;
     grid-gap: 2rem;
     margin: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .game-container {
@@ -56,18 +58,22 @@ body {
 
 .title {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+    text-align: center;
+    padding-left: 1rem;
 }
 
 .btn {
-    width: 100%;
+    width: 80%;
     border: none;
     font-size: 1rem;
     font-weight: bold;
-    color: white;
+    color: var(--mainColor);
     background-color: var(--btnColor);
     padding: 1rem;
+    margin: 1rem;
     transition: 0.5s;
+    border-radius: 1rem;
 }
 
 .btn:hover {
@@ -81,13 +87,13 @@ body {
     display: inline-block;
 } */
 
-@media screen and (min-width:500px){
+@media screen and (min-width:870px){
     .games-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 1150px) {
     .games-grid {
         grid-template-columns: repeat(3, 1fr);
     }
