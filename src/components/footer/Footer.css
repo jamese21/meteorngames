@@ -14,10 +14,11 @@
     --textColor: #eee;
     --clr-gray:#37474f;
     --backgroundColor: #24262b;
+    --footerColor: #6c6f79;
 }
 
 .footer {
-    background-color: var(--backgroundColor);
+    background-color: var(--mainColor);
     padding: 70px 0;
 }
 

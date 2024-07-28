@@ -30,7 +30,7 @@ function Navbar() {
         <nav ref={navRef}>
             <NavLink to='/'>Home</NavLink>
             <NavLink to='/games'>Games</NavLink>
-            <NavLink to='/news'>News</NavLink>
+            <a href='https://meteornrun.medium.com/' target='_blank' className='news-a'>News</a>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes />
             </button>

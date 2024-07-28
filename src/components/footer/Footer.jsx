@@ -1,5 +1,6 @@
 import React from 'react'
-import { faFacebookF, faXTwitter, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faXTwitter, faInstagram, faLinkedinIn,
+    faTelegram, faDiscord, faMedium, faYoutube  } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Footer.css';
 
@@ -14,26 +15,20 @@ function Footer() {
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Our Services</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Affiliate Program</a></li>
                         </ul>
                 </div>
                 <div className='footer-col'>
                     <h4>Get Help</h4>
                         <ul>
                             <li><a href="#">FAQ</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Order status</a></li>
-                            <li><a href="#">Payment options</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                 </div>
                 <div className='footer-col'>
-                    <h4>Online Shop</h4>
+                    <h4>Cryptocurrency</h4>
                         <ul>
-                            <li><a href="#">Watch</a></li>
-                            <li><a href="#">Bag</a></li>
-                            <li><a href="#">Shoes</a></li>
-                            <li><a href="#">Dress</a></li>
+                            <li><a href="#">MTO</a></li>
+                            <li><a href="#">GMTO</a></li>
                         </ul>
                 </div>
                 <div className='footer-col'>
@@ -43,6 +38,10 @@ function Footer() {
                             <a href="#"><FontAwesomeIcon icon={faXTwitter} /></a>
                             <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
                             <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                            <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+                            <a href="#"><FontAwesomeIcon icon={faDiscord} /></a>
+                            <a href="#"><FontAwesomeIcon icon={faMedium} /></a>
+                            <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
                         </div>
                 </div>
             </div>
