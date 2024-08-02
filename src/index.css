@@ -10,3 +10,15 @@
     min-height: 100vh;
     background: #ced8ff;
 }
+
+:root{
+    --mainColor: #000F08;
+    --mainColorLight: #6A6B83;
+    --secondaryColor: #86BBBD;
+    --btnColor: #d9e626;
+    --btnHoverColor: #949c23;
+    --textColor: #eeeeee;
+    --shadowColor:#37474f;
+    --backgroundColor: #24262b;
+    --footerColor: #6c6f79;
+}

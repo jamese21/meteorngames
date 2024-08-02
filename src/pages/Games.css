@@ -5,7 +5,7 @@
     /* outline: 2px solid green; */
 }
 
-:root{
+/* :root{
     --mainColor: #000F08;
     --mainColorLight: #6A6B83;
     --secondaryColor: #86BBBD;
@@ -14,7 +14,7 @@
     --textColor: #eee;
     --clr-gray:#37474f;
     --backgroundColor: #24262b;
-}
+} */
 
 body {
     color: var(--clr-gray);
