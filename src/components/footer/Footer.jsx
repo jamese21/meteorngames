@@ -27,21 +27,21 @@ function Footer() {
                 <div className='footer-col'>
                     <h4>Cryptocurrency</h4>
                         <ul>
-                            <li><a href="#">MTO</a></li>
-                            <li><a href="#">GMTO</a></li>
+                            <li><a href="https://coinmarketcap.com/currencies/meteor-coin/" target="_blank">MTO</a></li>
+                            <li><a href="https://coinmarketcap.com/currencies/game-meteor-coin/" target="_blank">GMTO</a></li>
                         </ul>
                 </div>
                 <div className='footer-col'>
                     <h4>Follow Us</h4>
                         <div className='social-links'>
                             <a href="#"><FontAwesomeIcon icon={faFacebookF} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faXTwitter} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+                            <a href="https://x.com/meteorn_run" target="_blank"><FontAwesomeIcon icon={faXTwitter} /></a>
+                            <a href="https://www.instagram.com/meteornrun_official/" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
                             <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faTelegram} /></a>
+                            <a href="https://t.me/+XlhHtEIQbeo1ZTdl" target="_blank"><FontAwesomeIcon icon={faTelegram} /></a>
                             <a href="#"><FontAwesomeIcon icon={faDiscord} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faMedium} /></a>
-                            <a href="#"><FontAwesomeIcon icon={faYoutube} /></a>
+                            <a href="https://meteornrun.medium.com/" target="_blank"><FontAwesomeIcon icon={faMedium} /></a>
+                            <a href="https://www.youtube.com/@meteornrun" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
                         </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@ function Games() {
       <div className="games-grid">
         <div className="game-container">
           <img src={meteorn_banner} alt="game banner" className="profile-img"></img>
-          <h3 className="title">Meteorn Run</h3>
+          <h2 className="title">Meteorn Run</h2>
           <a href='https://meteornrun.io/' target='_blank'>
             <button className="btn">Play</button>        
           </a>  
