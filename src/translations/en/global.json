@@ -1,0 +1,25 @@
+{
+    "navbar": {
+        "home-label": "Home",
+        "games-label": "Games",
+        "news-label": "News"
+    },
+    "home": {
+        "title": "Meteorn Games",
+        "games-button": "View all games"
+    },
+    "games": {
+        "meteorn-run-title": "Meteorn Run",
+        "play-button": "Play",
+        "coming-soon-label": "Coming Soon"
+    },
+    "footer": {
+        "company-label": "Company",
+        "about-us-label": "About Us",
+        "get-help-label": "Get Help",
+        "faq-label": "FAQ",
+        "contact-us-label": "Contact Us",
+        "cryptocurrency-label": "Cryptocurrency",
+        "follow-us-label": "Follow Us"
+    }
+}

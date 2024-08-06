@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import {FaBars, FaTimes} from "react-icons/fa";
 import react_logo from '../../assets/react.svg';
 import './Navbar-responsive.css'
+import { useTranslation } from 'react-i18next';
 
 
 function Navbar() {
@@ -10,31 +11,27 @@ function Navbar() {
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
+    const [t, i18n] = useTranslation("global")
+    const handleChangeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    }
   return (
-    // <div className='navbar'>
-    //     <img src={react_logo} alt = '' className='logo' />
-    //     <ul>
-    //         <li>
-    //             <NavLink to='/'>Home</NavLink>
-    //         </li>
-    //         <li>
-    //             <NavLink to='/games'>Games</NavLink>
-    //         </li>
-    //         <li>
-    //             <NavLink to='/news'>News</NavLink>
-    //         </li>
-    //     </ul>
-    // </div>
     <header>
         <img src={react_logo} alt='' className='logo' />
         <nav ref={navRef}>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/games'>Games</NavLink>
-            <a href='https://meteornrun.medium.com/' target='_blank' className='news-a'>News</a>
+            <NavLink to='/'>{t("navbar.home-label")}</NavLink>
+            <NavLink to='/games'>{t("navbar.games-label")}</NavLink>
+            <a href='https://meteornrun.medium.com/' target='_blank' className='news-a'>{t("navbar.news-label")}</a>
+
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes />
             </button>
         </nav>
+        <span className="language-dropdown">Language</span>
+        <div className="dropdown-content">
+            <button onClick={() => handleChangeLanguage("en")}>EN</button>
+            <button onClick={() => handleChangeLanguage("jp")}>JP</button>
+        </div>
         <button className='nav-btn' onClick={showNavbar}>
             <FaBars />
         </button>

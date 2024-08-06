@@ -1,0 +1,25 @@
+{
+    "navbar": {
+        "home-label": "ホーム",
+        "games-label": "ゲーム",
+        "news-label": "ニュース"
+    },
+    "home": {
+        "title": "メテオンゲームズ",
+        "games-button": "ゲームを全て表示"
+    },
+    "games": {
+        "meteorn-run-title": "メテオンラン",
+        "play-button": "プレー",
+        "coming-soon-label": "近日公開"
+    },
+    "footer": {
+        "company-label": "会社",
+        "about-us-label": "会社概要",
+        "get-help-label": "ヘルプ",
+        "faq-label": "FAQ",
+        "contact-us-label": "お問い合わせ",
+        "cryptocurrency-label": "仮想通貨",
+        "follow-us-label": "SNS"
+    }
+}

@@ -1,14 +1,18 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import portrait_banner from '../assets/portrait-banner.png'
 import meteorn_banner_wide from '../assets/meteorn-banner-wide.png'
 import './Home.css'
 
 function Home() {
+
+  const [t, i18n] = useTranslation("global")
+
   return (
     <div className="home-container">
       <img className="top-banner" src={meteorn_banner_wide}></img>
-      <h1 className="main-title">Meteorn Games</h1>
+      <h1 className="main-title">{t("home.title")}</h1>
       <div className="list-container">
         <div className="list-item">
           <a href='https://meteornrun.io/' target='_blank'>
@@ -32,7 +36,7 @@ function Home() {
         </div>
       </div>
       <NavLink className="game-button" to='/games'>
-        View all games
+        {t("home.games-button")}
       </NavLink>
     </div>
   )

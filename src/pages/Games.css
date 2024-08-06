@@ -54,7 +54,7 @@ body {
 }
 
 .game-container:hover {
-    outline: 2px solid blue;
+    outline: 2px solid var(--btnHoverColor);
     transition: 0.3s;
 }
 
