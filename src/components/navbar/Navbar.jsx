@@ -12,9 +12,6 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_nav");
     }
     const [t, i18n] = useTranslation("global")
-    const handleChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang)
-    }
   return (
     <header>
         <img src={react_logo} alt='' className='logo' />
@@ -22,16 +19,10 @@ function Navbar() {
             <NavLink to='/'>{t("navbar.home-label")}</NavLink>
             <NavLink to='/games'>{t("navbar.games-label")}</NavLink>
             <a href='https://meteornrun.medium.com/' target='_blank' className='news-a'>{t("navbar.news-label")}</a>
-
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes />
             </button>
         </nav>
-        <span className="language-dropdown">Language</span>
-        <div className="dropdown-content">
-            <button onClick={() => handleChangeLanguage("en")}>EN</button>
-            <button onClick={() => handleChangeLanguage("jp")}>JP</button>
-        </div>
         <button className='nav-btn' onClick={showNavbar}>
             <FaBars />
         </button>

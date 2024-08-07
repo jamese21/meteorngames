@@ -14,6 +14,9 @@
         "coming-soon-label": "Coming Soon"
     },
     "footer": {
+        "language-label": "Select Language",
+        "en-label": "English",
+        "jp-label": "Japanese",
         "company-label": "Company",
         "about-us-label": "About Us",
         "get-help-label": "Get Help",

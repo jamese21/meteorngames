@@ -8,20 +8,25 @@ import { useTranslation } from 'react-i18next';
 function Footer() {
 
     const [t, i18n] = useTranslation("global")
+    const handleChangeLanguage = (lang) => {
+        i18n.changeLanguage(lang)
+    }
 
     return (
         <footer className='footer'>
             <div className="footer-container">
                 <div className='row'>
                     <div className='footer-col'>
-                        <h4>{t("footer.company-label")}</h4> 
-                            <ul>
-                                <li><a href="#">{t("footer.about-us-label")}</a></li>
-                            </ul>
+                        <h4>{t("footer.language-label")}</h4>
+                        <ul>
+                            <li><button className="lang-btn" onClick={() => handleChangeLanguage("en")}>{t("footer.en-label")}</button></li>
+                            <li><button className="lang-btn" onClick={() => handleChangeLanguage("jp")}>{t("footer.jp-label")}</button></li>
+                        </ul> 
                     </div>
                     <div className='footer-col'>
-                        <h4>{t("footer.get-help-label")}</h4>
+                        <h4>{t("footer.company-label")}</h4>
                             <ul>
+                                <li><a href="#">{t("footer.about-us-label")}</a></li>
                                 <li><a href="#">{t("footer.faq-label")}</a></li>
                                 <li><a href="#">{t("footer.contact-us-label")}</a></li>
                             </ul>
