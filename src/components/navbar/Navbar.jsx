@@ -16,8 +16,8 @@ function Navbar() {
     <header>
         <img src={react_logo} alt='' className='logo' />
         <nav ref={navRef}>
-            <NavLink to='/'>{t("navbar.home-label")}</NavLink>
-            <NavLink to='/games'>{t("navbar.games-label")}</NavLink>
+            <NavLink onClick={showNavbar} to='/'>{t("navbar.home-label")}</NavLink>
+            <NavLink onClick={showNavbar} to='/games'>{t("navbar.games-label")}</NavLink>
             <a href='https://meteornrun.medium.com/' target='_blank' className='news-a'>{t("navbar.news-label")}</a>
             <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                 <FaTimes />
