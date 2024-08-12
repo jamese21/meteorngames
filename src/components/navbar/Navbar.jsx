@@ -1,6 +1,6 @@
 import {useRef} from 'react'
 import { NavLink } from 'react-router-dom';
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaTimes, FaArrowRight} from "react-icons/fa";
 import react_logo from '../../assets/react.svg';
 import './Navbar-responsive.css'
 import { useTranslation } from 'react-i18next';

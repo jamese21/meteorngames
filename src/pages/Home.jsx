@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import {FaArrowRight} from "react-icons/fa";
 import portrait_banner from '../assets/portrait-banner.png'
 import meteorn_banner_wide from '../assets/meteorn-banner-wide.png'
 import './Home.css'
@@ -36,7 +37,9 @@ function Home() {
         </div>
       </div>
       <NavLink className="game-button" to='/games'>
+        <span className="game-button-line"></span>
         {t("home.games-button")}
+        <FaArrowRight />
       </NavLink>
     </div>
   )
