@@ -13,7 +13,11 @@ function Home() {
   return (
     <div className="home-container">
       <img className="top-banner" src={meteorn_banner_wide}></img>
-      <h1 className="main-title">{t("home.title")}</h1>
+      <div className="title-container">
+        <div className="line"></div>
+        <h1 className="main-title">{t("home.title")}</h1>
+        <div className="line"></div>
+      </div>
       <div className="list-container">
         <div className="list-item">
           <a href='https://meteornrun.io/' target='_blank'>

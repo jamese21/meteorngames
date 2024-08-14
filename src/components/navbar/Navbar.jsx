@@ -14,7 +14,8 @@ function Navbar() {
     const [t, i18n] = useTranslation("global")
   return (
     <header>
-        <img src={react_logo} alt='' className='logo' />
+        {/* <img src={react_logo} alt='' className='logo' /> */}
+        <h1>Meteorn Games</h1>
         <nav ref={navRef}>
             <NavLink onClick={showNavbar} to='/'>{t("navbar.home-label")}</NavLink>
             <NavLink onClick={showNavbar} to='/games'>{t("navbar.games-label")}</NavLink>
@@ -23,7 +24,7 @@ function Navbar() {
                 <FaTimes />
             </button>
         </nav>
-        <button className='nav-btn' onClick={showNavbar}>
+        <button className='nav-btn bars-btn' onClick={showNavbar}>
             <FaBars />
         </button>
     </header>

@@ -19,13 +19,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: var(--textColor);
     position: fixed;
     width: 100%;
     z-index: 1000;
+}
+
+header h1 {
+    max-width: fit-content;
 }
 
 nav a {
@@ -45,15 +49,23 @@ header .nav-btn {
     border: none;
     outline: none;
     color: var(--textColor);
-    visibility: hidden; /* possibly use display: none instead */
+    visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 600px) {
+header .bars-btn {
+    margin-right: 9%;
+}
+
+@media only screen and (max-width: 900px) {
     header .nav-btn {
         visibility: visible;
         opacity: 1;
+    }
+
+    header .bars-btn {
+        margin-right: 0;
     }
 
     header nav {
