@@ -5,6 +5,7 @@ import {FaArrowRight} from "react-icons/fa";
 import portrait_banner from '../assets/portrait-banner.png'
 import meteorn_banner_wide from '../assets/meteorn-banner-wide.png'
 import './Home.css'
+import Slider from "../components/slider/Slider.jsx"
 
 function Home() {
 
@@ -12,7 +13,8 @@ function Home() {
 
   return (
     <div className="home-container">
-      <img className="top-banner" src={meteorn_banner_wide}></img>
+      <Slider />
+      {/* <img className="top-banner" src={meteorn_banner_wide}></img> */}
       <div className="title-container">
         <div className="line"></div>
         <h1 className="main-title">{t("home.title")}</h1>
