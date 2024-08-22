@@ -5,16 +5,6 @@
     /* outline: 2px solid green; */
 }
 
-/* :root{
-    --mainColor: #000F08;
-    --mainColorLight: #6A6B83;
-    --secondaryColor: #86BBBD;
-    --btnColor: #d9e626;
-    --btnHoverColor: #1c115e;
-    --textColor: #eee;
-    --clr-gray:#37474f;
-    --backgroundColor: #24262b;
-} */
 
 body {
     color: var(--clr-gray);
@@ -25,7 +15,19 @@ body {
 } */
 
 .main-contents {
-    /* background-color: var(--backgroundColor); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    margin: 2rem;
+    padding: 2rem;
+    width: 50%;
+    height: 30px;
+    font-size: x-large;
+    border-radius: 1rem;
 }
 
 .games-grid {
@@ -50,7 +52,7 @@ body {
     background-color: var(--backgroundColor);
     max-width: 700px;
     width: 100%;
-    /* min-height: 100px; */
+    min-height: 
 }
 
 .game-container:hover {

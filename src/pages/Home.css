@@ -186,8 +186,8 @@
     transition: all 0.25s ease;
 }
 
-@media screen and (max-width: 1200px) {
-    .top-banner {
+@media screen and (max-width: 800px) {
+    #slider {
         display: none;
     }
 }

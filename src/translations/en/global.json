@@ -9,7 +9,10 @@
         "games-button": "View all games"
     },
     "games": {
-        "meteorn-run-title": "Meteorn Run",
+        "game-titles": {
+            "meteorn-run-title": "Meteorn Run"
+        },
+        "search-placeholder": "Search for a game",
         "play-button": "Play",
         "coming-soon-label": "Coming Soon"
     },

@@ -9,7 +9,10 @@
         "games-button": "ゲームを全て表示"
     },
     "games": {
-        "meteorn-run-title": "メテオンラン",
+        "game-titles": {
+            "meteorn-run-title": "メテオンラン"
+        },
+        "search-placeholder": "ゲーム検索",
         "play-button": "プレー",
         "coming-soon-label": "近日公開"
     },
