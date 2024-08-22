@@ -25,7 +25,7 @@ function Games() {
           : game.title.toLowerCase().includes(searchQuery.toLowerCase())
         }).map((game) => (
           <div key={game.key} className="game-container">
-            <img src={"/src/assets/".concat(game.banner)} alt="game banner" className="profile-img"></img>
+            <img src={"/".concat(game.banner)} alt="game banner" className="profile-img"></img>
             <h2 className="title">{t("games.game-titles.".concat(game.key).concat("-title"))}</h2>
             <a href={game.link} target='_blank'>
               <button className="btn">{t("games.play-button")}</button>        
