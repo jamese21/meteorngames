@@ -20,8 +20,8 @@ const App = () => {
             <Route path='/news' element={<News />} />
           </Routes>
         </div>
-        <Footer />
       </ div>
+      <Footer />
     </BrowserRouter>
   )
 }

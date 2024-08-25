@@ -1,8 +1,7 @@
 #slider {
     padding-top: 50px;
     margin: 0 auto;
-    width: 1600px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
  }
  #slider input[type=radio] {
