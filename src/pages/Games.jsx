@@ -19,6 +19,13 @@ function Games() {
   return (
     <div className="main-contents">
       <Slider />
+
+      <div className="title-container">
+        <div className="line"></div>
+        <h1 className="main-title">{t("games.title")}</h1>
+        <div className="line"></div>
+      </div>
+
       <div className="filter-container">
         <input className="search-box" onChange={(e) => setSearchQuery(e.target.value)} 
         placeholder={t("games.search-placeholder")} />

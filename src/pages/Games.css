@@ -23,16 +23,19 @@ body {
 }
 
 .filter-container {
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 1rem;
 }
 
 .search-box {
-    margin: 2rem;
+    margin-left: 1rem;
     padding: 2rem;
-    width: 30%;
+    width: 50%;
     height: 30px;
     font-size: x-large;
     border-radius: 1rem;
@@ -44,8 +47,9 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
-    outline: 2px solid green;
-    gap: 1rem;
+    /* outline: 2px solid green; */
+    gap: 3rem;
+    margin-right: 1rem;
 }
 
 .view-btn {
@@ -70,7 +74,8 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
+    margin: 2rem;
 }
 
 .game-grid-container {
@@ -84,6 +89,8 @@ body {
     width: 80%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 2rem;
 }
 
 .game-container {
